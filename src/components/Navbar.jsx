@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+ import React, { useState } from "react";
 import pic from "../../public/photo.avif";
 
 import { AiOutlineMenu } from "react-icons/ai";
@@ -6,7 +6,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
 function Navbar() {
   const [menu, setMenu] = useState(false);
-  const navItems = [
+  const navItems = [i
     {
       id: 1,
       text: "Home",
@@ -15,6 +15,7 @@ function Navbar() {
       id: 2,
       text: "About",
     },
+   
     {
       id: 4,
       text: "Experiance",
@@ -40,7 +41,7 @@ function Navbar() {
             <ul className="hidden md:flex space-x-8">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 duration-200 cursor-pointer text-black hover:text-blue-900"
+                  className="hover:scale-105 duration-200 cursor-pointer"
                   key={id}
                 >
                   <Link
@@ -66,7 +67,7 @@ function Navbar() {
             <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 duration-200 font-semibold cursor-pointer text-black hover:text-blue-900"
+                  className="hover:scale-105 duration-200 font-semibold cursor-pointer"
                   key={id}
                 >
                   <Link
