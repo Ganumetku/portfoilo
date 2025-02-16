@@ -6,7 +6,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
 function Navbar() {
   const [menu, setMenu] = useState(false);
-  const navItems = [i
+  const navItems = [
     {
       id: 1,
       text: "Home",
@@ -15,7 +15,6 @@ function Navbar() {
       id: 2,
       text: "About",
     },
-   
     {
       id: 4,
       text: "Experiance",
@@ -41,7 +40,7 @@ function Navbar() {
             <ul className="hidden md:flex space-x-8">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 duration-200 cursor-pointer"
+                  className="hover:scale-105 duration-200 cursor-pointer text-black hover:text-blue-900"
                   key={id}
                 >
                   <Link
@@ -67,7 +66,7 @@ function Navbar() {
             <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 duration-200 font-semibold cursor-pointer"
+                  className="hover:scale-105 duration-200 font-semibold cursor-pointer text-black hover:text-blue-900"
                   key={id}
                 >
                   <Link
