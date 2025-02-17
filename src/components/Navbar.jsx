@@ -1,4 +1,4 @@
- import React, { useState } from "react";
+import React, { useState } from "react";
 import pic from "../../public/photo.avif";
 
 import { AiOutlineMenu } from "react-icons/ai";
@@ -6,7 +6,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
 function Navbar() {
   const [menu, setMenu] = useState(false);
-  const navItems = [i
+  const navItems = [
     {
       id: 1,
       text: "Home",
@@ -63,7 +63,7 @@ function Navbar() {
         </div>
         {/* mobile navbar */}
         {menu && (
-          <div className="bg-black">
+          <div className="bg-white">
             <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
               {navItems.map(({ id, text }) => (
                 <li
