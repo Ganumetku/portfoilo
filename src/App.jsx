@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/HomePage/HomePage.jsx";
 import Footer from "./components/Footer";
 import HomeProject from "../src/components/Projects/HomeProject.jsx"
-import MyResume from "../src/components/Projects/MyResume.jsx"
+
 
 import { Toaster } from "react-hot-toast";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
