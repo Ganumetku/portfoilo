@@ -104,7 +104,7 @@ function Home() {
 <div className="flex justify-between">
       <div className="text-center mt-10">
          <Link
-          to="https://drive.google.com/file/d/1sICWSeOETjzuGlQ4dkQ0CP6YKi8rs107/view?usp=sharing"
+          to="https://drive.google.com/file/d/1yrkY4ZGQX9FXUgO7d3LobnQkvMdRBaR0/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-red-700 hover:bg-red-500 text-white font-medium rounded-full px-5 py-2.5 transition duration-300"
